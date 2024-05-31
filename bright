@@ -1,0 +1,13 @@
+#!/bin/bash
+
+type=$1
+
+if [[ "$type" == "u" ]]; then
+	echo "brightness up 10%"
+	light -A 10
+elif [[ "$type" == "d" ]]; then
+	echo "brightness down 10%"
+	light -U 10
+else
+	echo "invalid"
+fi
