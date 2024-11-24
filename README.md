@@ -9,6 +9,8 @@ power.sh:
 - manual: you set a max frequency
 - turbo: force to run at a frequency you set and no lower/higher
 
+- gpu control added with the same profiles
+
 mount.sh 
 - You need to grab the partition to mount by lsblk
 - two inputs m and d
